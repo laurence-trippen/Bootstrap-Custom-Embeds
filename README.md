@@ -31,18 +31,18 @@ The following aspect ratios are natively supported by Bootstrap:
 If you want to use a different aspect ratio, you look into the void.
 It is not difficult to define your own CSS class to solve the problem.
 
-## 1. first you need an aspect ratio.
+## 1. First you need an aspect ratio.
 
 In this example I will use **5 : 4** as aspect ratio.
 Aspect ratio = x : y = 5 : 4
 
-## 2. now you have to calculate how much y of x is in percent.
+## 2. Now you have to calculate how much y of x is in percent.
 
 percentage = (y / x) * 100
 
 80% = (4 / 5) * 100
 
-## 3. now we have to define our own CSS class.
+## 3. Now we have to define our own CSS class.
 
 Best we stick to the bootstrap spelling.
 In our case, the class would look like this:
