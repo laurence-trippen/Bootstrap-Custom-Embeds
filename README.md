@@ -4,9 +4,9 @@ Customize aspect-ratio in Bootstrap's embed-responsive class.
 Bootstrap provides special CSS classes to simplify the handling of embeddings.
 Embeddings refer to the following elements:
 
-* <iframe>
-* <embed>
-* <video>
+* iframe
+* embed
+* video
 * ...
 
 In order to embed embeddings in Bootstrap following classes are needed.
@@ -47,11 +47,6 @@ Percent = (y / x) * 100
 ## 3. now we have to define our own CSS class.
 
 Best we stick to the bootstrap spelling.
-
-.embed-responsive-**X**by**Y**::before {
-padding-top: **percentage**
-}
-
 In our case, the class would look like this:
 
 ```css
