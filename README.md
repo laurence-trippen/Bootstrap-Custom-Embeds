@@ -7,12 +7,12 @@ Embeddings refer to the following elements:
 * <iframe>
 * <embed>
 * <video>
-...
+* ...
 
-In order to embed embeddings in Bootstrap foglende classes are needed.
+In order to embed embeddings in Bootstrap following classes are needed.
 
 * embed-responsive
-* embed-responsive-<aspect-ratio>
+* embed-responsive-$aspect-ratio$
 
 Example:
 ```html
@@ -29,11 +29,11 @@ The following aspect ratios are natively supported by Bootstrap:
 * 21:9 .embed-responsive-21by9
 
 If you want to use a different aspect ratio, you look into the void.
-It is not difficult to define your own CSS claase to solve the problem.
+It is not difficult to define your own CSS class to solve the problem.
 
 ## 1. first you need an aspect ratio.
 
-In this example I will use 5 : 4 as aspect ratio.
+In this example I will use **5 : 4** as aspect ratio.
 Aspect ratio = x : y = 5 : 4
 x = 5
 y = 4
@@ -48,11 +48,10 @@ Percent = (y / x) * 100
 
 Best we stick to the bootstrap spelling.
 
-```
-.embed-responsive-<X>by<Y>::before {
-padding-top: <percentage>
+.embed-responsive-**X**by**Y**::before {
+padding-top: **percentage**
 }
-```
+
 In our case, the class would look like this:
 
 ```css
