@@ -35,8 +35,6 @@ It is not difficult to define your own CSS class to solve the problem.
 
 In this example I will use **5 : 4** as aspect ratio.
 Aspect ratio = x : y = 5 : 4
-x = 5
-y = 4
 
 ## 2. now you have to calculate how much y of x is in percent.
 
