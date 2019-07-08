@@ -38,7 +38,7 @@ Aspect ratio = x : y = 5 : 4
 
 ## 2. now you have to calculate how much y of x is in percent.
 
-Percent = (y / x) * 100
+percentage = (y / x) * 100
 
 80% = (4 / 5) * 100
 
